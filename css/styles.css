@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(220, 245, 241);
+}
+
+hr {
+    border-width: 7px;
+    border-style: dotted;
+    border-color: rosybrown;
+    border-top: 1px;
+    width: 7%;
+    height: 1px;
+}
