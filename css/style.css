@@ -1,0 +1,55 @@
+/***************** CLASS SELECTORS *******************/
+body {
+    background-color: #a5cfe8;
+    margin: 0px 0px 0px 0px;
+}
+
+.topDiv {
+    height: 140px;
+    text-align: center;
+    background-color: #98c2da;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.name {
+    margin: 0px 0px 0px 0px;
+    display: inline-block;
+    position: relative;
+    top: 35px;
+}
+
+.pub-prof-container {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.public-prof {
+    width: 32px;
+    height: 32px;
+}
+
+.to-zoom:hover {
+    transform: scale(1.2);
+}
+
+#watermark-img {
+    position: fixed;
+}
+
+.web-cartoon {
+
+    width: 700px;
+    height: 450px;
+    position: fixed;
+    left: 50%;
+    top: 200px;
+    opacity: 30%;
+}
