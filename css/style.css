@@ -28,9 +28,8 @@ body {
 }
 
 .pub-prof-container {
-    position: absolute;
-    right: 20px;
-    top: 20px;
+   padding-right: 2%;
+   text-align: right;
 }
 
 .public-prof {
@@ -42,6 +41,9 @@ body {
     transform: scale(1.2);
 }
 
+.name{
+    vertical-align: left;
+}
 #watermark-img {
     position: fixed;
 }
