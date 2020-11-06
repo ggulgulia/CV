@@ -29,6 +29,7 @@ body {
 
 .pub-prof-container {
    padding-right: 2%;
+   padding-top: 2%;
    text-align: right;
 }
 
@@ -43,6 +44,8 @@ body {
 
 .name{
     vertical-align: left;
+    margin: 0px;
+    padding:
 }
 #watermark-img {
     position: fixed;
@@ -50,10 +53,8 @@ body {
 
 .web-cartoon {
 
-    width: 700px;
-    height: 450px;
     position: fixed;
-    left: 50%;
+    left: 10%;
     top: 200px;
     opacity: 10%;
 }
