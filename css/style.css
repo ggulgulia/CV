@@ -11,34 +11,32 @@ body {
     padding-top: 10;
     padding-left: 20;
     background-color: #98c2da;
+    position: relative;
 }
 
 .profile-pic {
     width: 120px;
     height: 120px;
-    position: relative;
+    position: absolute;
     top: 5%;
     left: 1%;
 }
 
 .profile-title{
-    position: relative;
-    top: 25%;
-    right: 30%;
+    position: absolute;
+    left: 160px;
+    bottom: 30%;
 }
 
 .name {
     margin: 0px 0px 0px 0px;
     display: inline-block;
-    position: relative;
 }
 
 .pub-prof-container {
-   padding-right: 2%;
-   text-align: right;
-   position: relative;
-   bottom: 10%;
-
+   position: absolute;
+   right: 20px;
+   top: 38%;
 }
 
 .public-prof {
@@ -53,7 +51,6 @@ body {
 .name{
     vertical-align: left;
     margin: 0px;
-    padding:
 }
 #watermark-img {
     position: fixed;
