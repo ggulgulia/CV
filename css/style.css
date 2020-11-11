@@ -35,8 +35,10 @@ body {
 
 .pub-prof-container {
    padding-right: 2%;
-   padding-top: 2%;
    text-align: right;
+   position: relative;
+   bottom: 10%;
+
 }
 
 .public-prof {
