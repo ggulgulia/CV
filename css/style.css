@@ -2,6 +2,7 @@
 body {
     background-color: #a5cfe8;
     margin: 0px 0px 0px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .topDiv {
@@ -20,11 +21,16 @@ body {
     left: 1%;
 }
 
+.profile-title{
+    position: relative;
+    top: 25%;
+    right: 30%;
+}
+
 .name {
     margin: 0px 0px 0px 0px;
     display: inline-block;
     position: relative;
-    top: 35px;
 }
 
 .pub-prof-container {
