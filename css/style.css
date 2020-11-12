@@ -2,12 +2,11 @@
 body {
     background-color: #a5cfe8;
     margin: 0px 0px 0px 0px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Merriweather', serif;
 }
 
 .topDiv {
     height: 140px;
-    text-align: center;
     padding-top: 10;
     padding-left: 20;
     background-color: #98c2da;
@@ -62,4 +61,47 @@ body {
     left: 10%;
     top: 200px;
     opacity: 10%;
+}
+
+@media (max-width: 700px){
+
+    html{ font-size: 60%; }
+    .topDiv {
+        height: 70px;
+        padding-top: 10;
+        padding-left: 20;
+        background-color: #98c2da;
+        position: relative;
+    }
+    .profile-pic {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: 5%;
+        left: 1%;
+    }
+
+    .profile-title{
+        position: absolute;
+        left: 80px;
+        bottom: 15%;
+    }
+
+    .name {
+        margin: 0px 0px 0px 0px;
+        display: inline-block;
+    }
+
+    .usrname{
+        font-size: 1.3em;
+    }
+
+    .usrProf{
+        font-size: 0.9em;
+    }
+
+    .public-prof {
+        width: 20px;
+        height: 20px;
+    }
 }
